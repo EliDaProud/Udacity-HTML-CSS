@@ -1,0 +1,128 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	border: 1px solid red !important;
+	overflow: auto;
+}	
+	
+
+/* Headers */
+
+h1 {	
+	font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 5em;
+    color: grey;
+    margin: 0;
+    padding-top: 0;
+}
+
+h4 {    
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 2em;
+    color: dimgrey;
+    margin: 0;
+    padding-right: 1%;
+}
+
+/* Elements */
+
+img {
+    display: block;
+}
+
+.projects {
+    margin: auto;
+    width: auto;
+    display: block;
+    padding: 10px;
+}
+
+.featured {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: lightsteelblue;
+    margin-top: 40px;
+}
+
+#liner {
+    height: 5px;
+    width: 100%;
+    background: #bcbbbb;
+}
+
+p {
+    text-align: center;
+}
+
+
+/* Layout */
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 35px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+/*  Columns */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

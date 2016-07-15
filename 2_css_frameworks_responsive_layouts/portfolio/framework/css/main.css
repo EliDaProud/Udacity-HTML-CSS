@@ -3,15 +3,29 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-}
 
-* {
-   border: 1px solid red !important;
+	border: 1px solid red !important;
+	overflow: auto;
+}	
+	
+* {	
+	font-family: 'Indie Flower', cursive;
 }
-
 
 h1 {
 	color: indigo;
+}
+
+@media only screen and (max-width: 500px) {
+	p {
+		background-color: blue;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	p {
+		display: none;
+	}
 }
 
 .grid {
